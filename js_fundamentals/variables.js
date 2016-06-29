@@ -42,6 +42,9 @@ var lifeSpan = 100
 var perDiem = 0.5
 var total = 0
 
+total = (lifeSpan - currentAge) * 365 * 0.5
+
+console.log("You will need " + total + " to last you until the ripe old age of " + lifeSpan)
 
 
 // EXERCISE: The Geometrizer
@@ -51,11 +54,29 @@ var total = 0
 // Store a radius into a variable.
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
+var radius = 4
+var circum = 0
+var pi = 3.14
 
+circum = 2 * pi * radius
+console.log("The circumference is " + circum)
+
+var area = 0
+area = pi * radius ^ 2
+console.log("The area is " + area)
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
+//T(°F) = T(°C) × 1.8 + 32
+var celc = 0
+var fer = 32
+var tempFer = 0
+tempFer = celc * 1.8 + 32
+//T(°C) = (T(°F) - 32) / 1.8
+tempCel = (fer - 32) / 1.8
 
+console.log(celc + " degrees Celcius is " + tempFer + " Ferenheight")
+console.log(fer + " degrees Fahrenheight is " + tempCel + " Celcius") 
 // Store a celsius temperature into a variable.
 // Convert it to fahrenheit and output "NN°C is NN°F".
 // Now store a fahrenheit temperature into a variable.
