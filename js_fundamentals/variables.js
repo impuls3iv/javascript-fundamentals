@@ -6,7 +6,12 @@
 
 // Store the following into variables: job title, geographic location, partner's name, number of children.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+var job = 'Developer'
+var location = 'Toronto'
+var partner = 'Mika'
+var kids = 2
 
+console.log("You will be a " + job + " in " + location + " and married to " + partner + " with " + kids + " kids")
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
@@ -15,7 +20,13 @@
 // Store their birth year in a variable.
 // Calculate their age based on the stored values.
 // Output them to the screen like so: "They are NN years old.", substituting the values.
+var currentYear = 2016
+var birthYear = 1987
+var age = 0
 
+age = currentYear - birthYear
+
+console.log("I am " + age + " years old")
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
@@ -25,6 +36,13 @@
 // Store an estimated amount per day (as a number).
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+var currentAge = 28
+var lifeSpan = 100
+var perDiem = 0.5
+var total = 0
+
+
 
 // EXERCISE: The Geometrizer
 
